@@ -41,7 +41,7 @@
       rgb(16, 16, 16) -19.5%,
       rgba(16, 16, 16, 0) 100%
     ),
-    url("./assets/hero-bg.png");
+    url("../assets/hero-bg.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -169,7 +169,7 @@
       rgba(255, 255, 255, 0.86) 0%,
       rgba(255, 255, 255, 0.86) 100%
     ),
-    url("./assets/social-bg.png");
+    url("../assets/social-bg.png");
   background-size: cover;
   display: flex;
   justify-content: center;
