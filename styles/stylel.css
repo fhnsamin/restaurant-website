@@ -132,10 +132,6 @@
   margin: 120px auto;
 }
 
-#card-box .info {
-  /* dont know why it was shown */
-}
-
 #card-box .title {
   color: rgb(16, 16, 16);
   font-family: Work Sans;
@@ -225,7 +221,8 @@ hr {
   margin: 30px auto;
   width: 30%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 }
 #social .links img {
   height: 30px;
@@ -236,6 +233,102 @@ hr {
 }
 
 #social .links img:hover {
+  height: 40px;
+  width: 40px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+#about {
+  height: 450px;
+  display: flex;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans;
+}
+
+#about .img {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets/foods.png");
+  width: 50%;
+  background-size: cover;
+  border: none;
+}
+
+#about .text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about .text .container {
+  width: 640px;
+  margin: 0;
+}
+
+#about .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#about .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin: 20px auto;
+}
+
+#about .follow {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  padding: 18px 0;
+}
+
+#about .links {
+  text-align: center;
+  margin: 30px auto;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#about .links img {
+  height: 30px;
+  width: 30px;
+  opacity: 0.8;
+  transition: 0.5s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+#about .links img:hover {
+  /* height: 40px;
+  width: 40px; */
   opacity: 1;
   transition: 0.5s ease;
 }
